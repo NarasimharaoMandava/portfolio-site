@@ -1,0 +1,163 @@
+.body {
+  background-color: #675432;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  background-color: #C0C0C0;
+  margin-bottom: 1px;
+}
+
+.logo {
+  width: 20%;
+  height: 140px;
+  border-radius: 5%;
+}
+
+.text {
+  width: 100%;
+  color: #990000;
+  font-family: "Comic Sans Ms", cursive, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.logoSection {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+
+.wwelogo {
+  width: 100%;
+  height: 20em;
+}
+
+.imgSection {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 4%;
+  background-color: grey;
+}
+
+.imgArticle {
+  width: 30%;
+  background-color: #F5DEB3;
+  margin: 1%;
+  border-radius: 5%;
+}
+
+.imgArticle:hover {
+  background-color: #98A06F;
+  cursor: pointer;
+}
+
+.img {
+  width: 99%;
+  height: 250px;
+  border: 2px solid wheat;
+  border-radius: 5%;
+}
+
+.imgtext {
+  margin-left: 30%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px;
+  color: black;
+}
+
+.imgtext:hover {
+  color: #cc0066;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  border: 2px solid #993333;
+  background-color: #ffcce6;
+  margin-top: 20px;
+}
+
+.p {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+@media all and (min-width:320px) and (max-width:500px) {
+  .header {
+    height: 4em;
+  }
+
+  .logo {
+    height: 4em;
+  }
+
+  .text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .wwelogo {
+    height: 8em;
+  }
+
+  .imgArticle {
+    width: 70%;
+  }
+
+  .img {
+    height: 100px;
+    width: 98%;
+  }
+
+  .imgtext {
+    font-size: 15px;
+  }
+
+  .p {
+    font-size: 15px;
+  }
+}
+
+@media all and (min-width:501px) and (max-width:780px) {
+  .header {
+    height: 8em;
+  }
+
+  .logo {
+    height: 8em;
+  }
+
+  .text {
+    margin-top: 40px;
+    font-size: 35px;
+  }
+
+  .wwelogo {
+    height: 17em;
+  }
+
+  .imgArticle {
+    width: 45%;
+  }
+
+  .img {
+    width: 99%;
+  }
+
+  .imgtext {
+    font-size: 20px;
+  }
+
+  .p {
+    font-size: 30px;
+  }
+}
